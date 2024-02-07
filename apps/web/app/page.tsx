@@ -14,10 +14,8 @@ function Gradient({
   conic?: boolean
   className?: string
 }): JSX.Element {
-  console.log('i am here -- server component', styles)
   return (
     <>
-      <Test />
       <span
         className={[
           styles.gradient,
